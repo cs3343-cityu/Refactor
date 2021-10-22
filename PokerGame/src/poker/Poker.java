@@ -17,6 +17,8 @@ public class Poker {
 		return false;
 	}
 
+	// change 3
+	
 	private boolean extracted(String[] cards, int i) {
 		return cards[i].charAt(1) == cards[i + 1].charAt(1);
 	}
