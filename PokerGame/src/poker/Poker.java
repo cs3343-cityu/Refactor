@@ -10,7 +10,7 @@ public class Poker {
 	public boolean isThreeOfaKind(String cards[], int n) {
 		for (int i = 0; i < n - 2; i++) {
 			if (extracted(cards, i)
-					&& cards[i + 1].charAt(1) == cards[i + 2].charAt(1))
+					&& extracted(cards, i+1))
 				return true;
 		}
 
