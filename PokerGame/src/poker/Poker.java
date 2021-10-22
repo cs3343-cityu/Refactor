@@ -19,6 +19,7 @@ public class Poker {
 
 	// change 3
 	
+	// change 5 
 	private boolean extracted(String[] cards, int i) {
 		return cards[i].charAt(1) == cards[i + 1].charAt(1);
 	}
